@@ -1,27 +1,27 @@
 void main(){
   //P9
 
-  // var statusCodes=[100,200,301,302,999];
-  //
-  // for (var n in statusCodes) {
-  //   print(n);
-  //   switch (n) {
-  //     case 100:
-  //       print("$n：OPEN");
-  //       break;
-  //     case 200:
-  //       print("$n：APPROVED");
-  //       break;
-  //     case 301:
-  //       print("$n: with Error ");
-  //       break;
-  //     case 302:
-  //       print("$n: DENIED with Error ");
-  //       break;
-  //     default:
-  //       print("$n: unknown status");
-  //   }
-  // }
+  var statusCodes=[100,200,301,302,999];
+
+  for (var n in statusCodes) {
+    print(n);
+    switch (n) {
+      case 100:
+        print("$n：OPEN");
+        break;
+      case 200:
+        print("$n：APPROVED");
+        break;
+      case 301:
+        print("$n: with Error ");
+        break;
+      case 302:
+        print("$n: DENIED with Error ");
+        break;
+      default:
+        print("$n: unknown status");
+    }
+  }
 
 
   //P10
