@@ -21,7 +21,6 @@ void main(){
   BankAccount1.balance = 10000;
   int _balance = BankAccount1.balance;
 
-
   int deposit(int money){
     return _balance += money;
   }
@@ -35,7 +34,6 @@ void main(){
       return _balance = _balance;
     }
   }
-
 
   print("------------------------");
   int money = 3000;
